@@ -8,6 +8,6 @@ namespace Ejercicio1
 {
     public  class ClasePruebas
     {
-        public int resultado 
+        //public int resultado 
     }
 }

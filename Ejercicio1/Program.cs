@@ -32,7 +32,7 @@ namespace Ejercicio1
             else
             {
                 System.Console.WriteLine("no es  IGUAL A 1000");
-            }          
+            }
 
 
             #endregion
@@ -57,8 +57,19 @@ namespace Ejercicio1
             #region bucles
             //for
             //while
+            System.Console.WriteLine("Ingrese el primer numero: ");
+            int a5 = int.Parse( System.Console.ReadLine());
 
-            for(int i = 0; i <= 10;  i++)
+
+            System.Console.WriteLine("Que tipo de operacion (-,+,*,/): ");
+            int a6 = int.Parse(System.Console.ReadLine());
+
+            int resultado = 0;
+
+            System.Console.WriteLine("el resultado es : " + resultado);
+
+
+            for (int i = 0; i <= 10;  i++)
             {
                 System.Console.WriteLine("Ciclo: " + i);
 
@@ -77,6 +88,8 @@ namespace Ejercicio1
 
 
             int o = 3;
+
+            
 
             #endregion
 
