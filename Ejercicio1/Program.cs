@@ -78,6 +78,7 @@ namespace Ejercicio1
 
             int o = 3;
 
+            int ab = 2;
             #endregion
 
 
