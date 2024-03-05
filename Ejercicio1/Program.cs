@@ -63,10 +63,8 @@ namespace Ejercicio1
             ////
             ///
 
-            
 
-            System.Console.WriteLine("Ingrese el primer numero: ");
-            int a5 = int.Parse(System.Console.ReadLine());
+            int a5 = clasePruebas.FuncionCapturaValor();
 
             System.Console.WriteLine("Ingrese el segundo numero: ");
             int a6 = int.Parse(System.Console.ReadLine());

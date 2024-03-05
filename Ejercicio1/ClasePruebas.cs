@@ -33,10 +33,11 @@ namespace Ejercicio1
            return resultado;
         }
     
-        public int funcion()
+        public int FuncionCapturaValor()
         {
-
-            return 0;
+            System.Console.WriteLine("Ingrese el primer numero: ");
+            return int.Parse(System.Console.ReadLine());
+            
         }
     
     }
