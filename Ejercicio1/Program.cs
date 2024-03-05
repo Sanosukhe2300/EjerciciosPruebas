@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace Ejercicio1
 {
@@ -19,13 +21,13 @@ namespace Ejercicio1
             Double a4 = 45.666;
             string b = "prueba";
             bool g = false;
-
+            int h= 0;
             #endregion
 
 
             #region IF
 
-            if(a == 1001 || a3 == 333333)
+            if (a == 1001 || a3 == 333333)
             {
                 System.Console.WriteLine("Es IGUAL A 1000");
             }
@@ -57,18 +59,52 @@ namespace Ejercicio1
             #region bucles
             //for
             //while
+
             System.Console.WriteLine("Ingrese el primer numero: ");
-            int a5 = int.Parse( System.Console.ReadLine());
+            int a5 = int.Parse(System.Console.ReadLine());
 
-
-            System.Console.WriteLine("Que tipo de operacion (-,+,*,/): ");
+            System.Console.WriteLine("Ingrese el segundo numero: ");
             int a6 = int.Parse(System.Console.ReadLine());
 
+            System.Console.WriteLine("Que tipo de operacion (-,+,*,/): ");
+            String a7 = System.Console.ReadLine();
+
             int resultado = 0;
+    
+
+
+            if (a7 == "-")
+
+            {
+                resultado = a5-a6;
+            }
+            else if (a7 == "+")
+            {
+                resultado = a5+a6;
+            }
+
+            else if (a7 == "*")
+            {
+                resultado = a5*a6;
+
+            }
+
+
+            else if (a7 == "/")
+            {
+                resultado = a5/a6;
+            }
+            
+            System.Console.WriteLine("El resultado de la operacion es: " + resultado);
+            System.Console.ReadLine();
+
+            
+            
 
 
 
-            for (int i = 0; i <= 10;  i++)
+
+            for (int i = 0; i <= 10; i++)
             {
                 System.Console.WriteLine("Ciclo: " + i);
 
