@@ -66,8 +66,7 @@ namespace Ejercicio1
 
             int a5 = clasePruebas.FuncionCapturaValor();
 
-            System.Console.WriteLine("Ingrese el segundo numero: ");
-            int a6 = int.Parse(System.Console.ReadLine());
+            int a6 = clasePruebas.FuncionCapturaValor2();
 
             System.Console.WriteLine("Que tipo de operacion (-,+,*,/): ");
             String a7 = System.Console.ReadLine();

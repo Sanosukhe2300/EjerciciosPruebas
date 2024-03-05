@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio1
 {
-    public  class ClasePruebas
+    public class ClasePruebas
     {
         public int FuncionCalculadora(int num1, int num2, string operador)
         {
@@ -30,15 +30,24 @@ namespace Ejercicio1
             {
                 resultado = num1 / num2;
             }
-           return resultado;
+            return resultado;
         }
-    
+
         public int FuncionCapturaValor()
         {
             System.Console.WriteLine("Ingrese el primer numero: ");
             return int.Parse(System.Console.ReadLine());
+
+        }
+
+
+        public int FuncionCapturaValor2()
+        {
+            System.Console.WriteLine("Ingrese el segundo numero: ");
+            return int.Parse(System.Console.ReadLine());
+
             
         }
-    
+
     }
 }
