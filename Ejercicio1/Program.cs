@@ -59,6 +59,11 @@ namespace Ejercicio1
             #region bucles
             //for
             //while
+            ClasePruebas clasePruebas = new ClasePruebas();
+            ////
+            ///
+
+            
 
             System.Console.WriteLine("Ingrese el primer numero: ");
             int a5 = int.Parse(System.Console.ReadLine());
@@ -69,32 +74,9 @@ namespace Ejercicio1
             System.Console.WriteLine("Que tipo de operacion (-,+,*,/): ");
             String a7 = System.Console.ReadLine();
 
-            int resultado = 0;
-    
+           
+            int resultado = clasePruebas.FuncionCalculadora(a5, a6, a7);
 
-
-            if (a7 == "-")
-
-            {
-                resultado = a5-a6;
-            }
-            else if (a7 == "+")
-            {
-                resultado = a5+a6;
-            }
-
-            else if (a7 == "*")
-            {
-                resultado = a5*a6;
-
-            }
-
-
-            else if (a7 == "/")
-            {
-                resultado = a5/a6;
-            }
-            
             System.Console.WriteLine("El resultado de la operacion es: " + resultado);
             System.Console.ReadLine();
 
@@ -107,7 +89,7 @@ namespace Ejercicio1
             for (int i = 0; i <= 10; i++)
             {
                 System.Console.WriteLine("Ciclo: " + i);
-
+               
             }
 
             int g9 = 0;

@@ -8,6 +8,36 @@ namespace Ejercicio1
 {
     public  class ClasePruebas
     {
-        //public int resultado 
+        public int FuncionCalculadora(int num1, int num2, string operador)
+        {
+            int resultado = 0;
+
+            if (operador == "-")
+            {
+                resultado = num1 - num2;
+            }
+            else if (operador == "+")
+            {
+                resultado = num1 + num2;
+            }
+
+            else if (operador == "*")
+            {
+                resultado = num1 * num2;
+
+            }
+            else if (operador == "/")
+            {
+                resultado = num1 / num2;
+            }
+           return resultado;
+        }
+    
+        public int funcion()
+        {
+
+            return 0;
+        }
+    
     }
 }
