@@ -66,7 +66,6 @@ namespace Ejercicio1
 
             int resultado = 0;
 
-            System.Console.WriteLine("el resultado es : " + resultado);
 
 
             for (int i = 0; i <= 10;  i++)
